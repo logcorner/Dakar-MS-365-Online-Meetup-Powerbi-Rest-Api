@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/power-bi-data-connector/.vs/powerBiDataConnector/v16/.suo
+/power-bi-data-connector/bin/Debug
+/power-bi-data-connector/obj/Debug

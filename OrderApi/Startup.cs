@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Identity.Web;
 using Microsoft.OpenApi.Models;
 using OrderApi.Repositories;
 using System;
@@ -25,8 +24,12 @@ namespace OrderApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IOrderRepository, OrderRepository>();
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddMicrosoftIdentityWebApi(Configuration.GetSection("AzureAd"));
+            services
+               .AddAuthentication(options =>
+               {
+                   options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+               }
+               ).AddJwtBearer(options => Configuration.Bind("AzureAd", options));
 
             services.AddSwaggerGen(options =>
             {
@@ -48,7 +51,7 @@ namespace OrderApi
                             TokenUrl = new Uri("https://login.microsoftonline.com/49ae1e1a-3f6e-4708-a119-3db19ac9d323/oauth2/v2.0/token"),
                             Scopes = new Dictionary<string, string>
                             {
-                                {"https://spseventdackar.onmicrosoft.com/api/orders/MyOrders","get order list"}
+                                {"https://spseventdackar.onmicrosoft.com/api/orders/mines","get order list"}
                             }
                         }
                     }
@@ -66,7 +69,7 @@ namespace OrderApi
                             }
                         },
                         new[] {
-                                "https://spseventdackar.onmicrosoft.com/api/orders/MyOrders"
+                                "https://spseventdackar.onmicrosoft.com/api/orders/mines"
                               }
                     }
                 });
@@ -88,10 +91,8 @@ namespace OrderApi
            {
                c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi v1");
                c.OAuthClientId("c0c00309-3d10-49ff-b9dd-d5184af7b613");
-               c.OAuthClientSecret("3AxFhi.fsIfiuai9_E4~eoUw3x-0r__7.P");
-               c.OAuthAppName("The Speech Micro Service Command Swagger UI");
+               c.OAuthAppName("The Power Bi Rest API  Order Swagger UI");
                c.OAuthScopeSeparator(" ");
-
                c.OAuthUsePkce();
            });
 

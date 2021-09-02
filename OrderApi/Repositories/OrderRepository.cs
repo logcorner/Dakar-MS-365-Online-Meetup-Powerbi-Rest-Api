@@ -10,7 +10,7 @@ namespace OrderApi.Repositories
         {
             new Order
             {
-                OerderId =1,
+                OrderId =1,
                 ProductName ="Apple",
                 UnitPrice = new decimal( 0.3),
                 Quantity = 100,
@@ -18,7 +18,7 @@ namespace OrderApi.Repositories
             },
             new Order
             {
-                OerderId =2,
+                OrderId =2,
                 ProductName ="Orange",
                 UnitPrice = new decimal( 0.7),
                 Quantity = 360,
@@ -26,7 +26,7 @@ namespace OrderApi.Repositories
             },
             new Order
             {
-                OerderId =3,
+                OrderId =3,
                 ProductName ="bananas",
                 UnitPrice = new decimal( 0.9),
                 Quantity = 720,
@@ -41,7 +41,7 @@ namespace OrderApi.Repositories
 
         public bool IsOwnerOfOrder(int orderIdAsGuid, string ownerId)
         {
-            return data.Any(i => i.OerderId == orderIdAsGuid && i.CustomerEmail == ownerId);
+            return data.Any(i => i.OrderId == orderIdAsGuid && i.CustomerEmail == ownerId);
         }
     }
 }

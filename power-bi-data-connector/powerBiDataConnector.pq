@@ -4,8 +4,8 @@ section powerBiDataConnector;
 client_id = Text.FromBinary(Extension.Contents("client_id.txt"));
 client_secret = Text.FromBinary(Extension.Contents("client_secret.txt"));
 redirect_uri = "https://oauth.powerbi.com/views/oauthredirect.html";
-token_uri = "https://login.microsoftonline.com/organizations/oauth2/v2.0/token";
-authorize_uri = "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize";
+token_uri = "https://login.microsoftonline.com/49ae1e1a-3f6e-4708-a119-3db19ac9d323/oauth2/v2.0/token";
+authorize_uri = "https://login.microsoftonline.com/49ae1e1a-3f6e-4708-a119-3db19ac9d323/oauth2/v2.0/authorize";
 logout_uri = "https://login.microsoftonline.com/logout.srf";
 
 
@@ -15,14 +15,14 @@ windowHeight = 1024;
 
 // OAuth2 scope
 // scope_prefix = "";
-scopes =   "https://graph.microsoft.com/User.Read";//  "order_api.orders";
+scopes =   "https://spseventdackar.onmicrosoft.com/api/orders/mines";//  "order_api.orders";
 
 [DataSource.Kind="powerBiDataConnector", Publish="powerBiDataConnector.Publish"]
 shared powerBiDataConnector.Contents = (url as text) =>
     let
        source = Json.Document(Web.Contents(url)),
        #"Converted to Table" = Table.FromList(source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
-       #"Expanded Column1" = Table.ExpandRecordColumn(#"Converted to Table", "Column1", {"orderId", "productName", "unitPrice", "quantity", "customerId"}, {"orderId", "productName", "unitPrice", "quantity", "customerId"})
+       #"Expanded Column1" = Table.ExpandRecordColumn(#"Converted to Table", "Column1", {"orderId", "productName", "unitPrice", "quantity", "customerEmail"}, {"orderId", "productName", "unitPrice", "quantity", "customerEmail"})
     in
        #"Expanded Column1";
 

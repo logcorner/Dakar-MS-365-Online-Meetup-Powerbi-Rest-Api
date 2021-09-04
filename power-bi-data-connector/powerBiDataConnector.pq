@@ -14,8 +14,8 @@ windowWidth = 720;
 windowHeight = 1024;
 
 // OAuth2 scope
-// scope_prefix = "";
-scopes =   "https://spseventdackar.onmicrosoft.com/api/orders/mines";//  "order_api.orders";
+
+scopes =   "https://spseventdackar.onmicrosoft.com/api/orders/mines";
 
 [DataSource.Kind="powerBiDataConnector", Publish="powerBiDataConnector.Publish"]
 shared powerBiDataConnector.Contents = (url as text) =>

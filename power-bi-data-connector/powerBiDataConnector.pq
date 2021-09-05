@@ -4,8 +4,8 @@ section powerBiDataConnector;
 client_id = Text.FromBinary(Extension.Contents("client_id.txt"));
 client_secret = Text.FromBinary(Extension.Contents("client_secret.txt"));
 redirect_uri = "https://oauth.powerbi.com/views/oauthredirect.html";
-token_uri = "https://login.microsoftonline.com/49ae1e1a-3f6e-4708-a119-3db19ac9d323/oauth2/v2.0/token";
-authorize_uri = "https://login.microsoftonline.com/49ae1e1a-3f6e-4708-a119-3db19ac9d323/oauth2/v2.0/authorize";
+token_uri = "https://login.microsoftonline.com/0f8281a6-41b2-4a39-a11f-89d9154aeda0/oauth2/v2.0/token";
+authorize_uri = "https://login.microsoftonline.com/0f8281a6-41b2-4a39-a11f-89d9154aeda0/oauth2/v2.0/authorize";
 logout_uri = "https://login.microsoftonline.com/logout.srf";
 
 
@@ -15,7 +15,7 @@ windowHeight = 1024;
 
 // OAuth2 scope
 
-scopes =   "https://spseventdackar.onmicrosoft.com/api/orders/mines";
+scopes =   "https://logcornerpowerbi.onmicrosoft.com/api/orders/my-orders";
 
 [DataSource.Kind="powerBiDataConnector", Publish="powerBiDataConnector.Publish"]
 shared powerBiDataConnector.Contents = (url as text) =>

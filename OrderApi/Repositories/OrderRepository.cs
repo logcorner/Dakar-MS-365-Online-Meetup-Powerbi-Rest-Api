@@ -14,7 +14,7 @@ namespace OrderApi.Repositories
                 ProductName ="Apple",
                 UnitPrice = new decimal( 0.3),
                 Quantity = 100,
-                CustomerEmail ="leyegora@yahoo.fr"
+                CustomerEmail ="leyegora@logcornerpowerbi.onmicrosoft.com"
             },
             new Order
             {
@@ -22,7 +22,7 @@ namespace OrderApi.Repositories
                 ProductName ="Orange",
                 UnitPrice = new decimal( 0.7),
                 Quantity = 360,
-                CustomerEmail ="leyegora@yahoo.fr"
+                CustomerEmail ="leyegora@logcornerpowerbi.onmicrosoft.com"
             },
             new Order
             {
@@ -30,7 +30,7 @@ namespace OrderApi.Repositories
                 ProductName ="bananas",
                 UnitPrice = new decimal( 0.9),
                 Quantity = 720,
-                CustomerEmail ="leyegora@yahoo.fr"
+                CustomerEmail ="leyegora@logcornerpowerbi.onmicrosoft.com"
             }
         };
 

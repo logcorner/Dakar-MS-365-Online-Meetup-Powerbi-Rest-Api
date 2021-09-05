@@ -23,7 +23,7 @@ namespace web_api_core.Controllers
         [HttpGet()]
         public ActionResult<List<Order>> Index()
         {
-            var username = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+            var username = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
             var result = _orderRepository.GetOrders(username);
             return Ok(result);
         }

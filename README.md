@@ -6,6 +6,9 @@ C:\Users\tocan\OneDrive\Documents\Microsoft Power BI Desktop\Custom Connectors
 
 https://radacad.com/power-bi-custom-connector-connect-to-any-data-sources-hello-world
 
+==>  azure active directory
+https://azure.microsoft.com/fr-fr/services/active-directory/
+
 
 Install the Power Query SDK from the Visual Studio Marketplace.
 Create a new data connector project.

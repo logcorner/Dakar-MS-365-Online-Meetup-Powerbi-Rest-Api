@@ -1,47 +1,25 @@
-﻿using OrderApi.Models;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
+using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace OrderApi.Repositories
 {
     public class OrderRepository : IOrderRepository
     {
-        private List<Order> data = new List<Order>
+        public async Task<List<Order>> GetOrders()
         {
-            new Order
+            string dataPath = Directory.GetCurrentDirectory();
+            string fileName = $@"{dataPath}\Data\data.json";
+            using FileStream openStream = File.OpenRead(fileName);
+            var orders =
+                await JsonSerializer.DeserializeAsync<List<Order>>(openStream);
+            foreach(var item in orders)
             {
-                OrderId =1,
-                ProductName ="Apple",
-                UnitPrice = new decimal( 0.3),
-                Quantity = 100,
-                CustomerEmail ="leyegora@yahoo.fr"
-            },
-            new Order
-            {
-                OrderId =2,
-                ProductName ="Orange",
-                UnitPrice = new decimal( 0.7),
-                Quantity = 360,
-                CustomerEmail ="leyegora@yahoo.fr"
-            },
-            new Order
-            {
-                OrderId =3,
-                ProductName ="bananas",
-                UnitPrice = new decimal( 0.9),
-                Quantity = 720,
-                CustomerEmail ="leyegora@yahoo.fr"
+                Console.WriteLine($"Date: {item.CustName}");
             }
-        };
-
-        public IEnumerable<Order> GetOrders(string username)
-        {
-            return data.Where(d => d.CustomerEmail == username);
-        }
-
-        public bool IsOwnerOfOrder(int orderIdAsGuid, string ownerId)
-        {
-            return data.Any(i => i.OrderId == orderIdAsGuid && i.CustomerEmail == ownerId);
+            return orders;
         }
     }
 }

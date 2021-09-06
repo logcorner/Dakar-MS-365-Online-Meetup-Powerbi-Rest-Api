@@ -1,12 +1,11 @@
-﻿using OrderApi.Models;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace OrderApi.Repositories
 {
     public interface IOrderRepository
     {
-        IEnumerable<Order> GetOrders(string username);
-
-        bool IsOwnerOfOrder(int orderId, string ownerId);
+        Task<List<Order>> GetOrders();
+       
     }
 }

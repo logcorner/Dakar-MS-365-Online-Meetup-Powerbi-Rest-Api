@@ -15,10 +15,7 @@ namespace OrderApi.Repositories
             using FileStream openStream = File.OpenRead(fileName);
             var orders =
                 await JsonSerializer.DeserializeAsync<List<Order>>(openStream);
-            foreach(var item in orders)
-            {
-                Console.WriteLine($"Date: {item.CustName}");
-            }
+            
             return orders;
         }
     }

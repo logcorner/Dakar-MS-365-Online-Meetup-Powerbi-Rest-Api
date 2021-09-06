@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OrderApi.Repositories;
 using System.Threading.Tasks;
 
@@ -15,7 +16,7 @@ namespace web_api_core.Controllers
             _orderRepository = orderRepository;
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpGet()]
         public  async Task<IActionResult> Index()
         {

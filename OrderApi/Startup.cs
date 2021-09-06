@@ -46,11 +46,11 @@ namespace OrderApi
                     {
                         AuthorizationCode = new OpenApiOAuthFlow
                         {
-                            AuthorizationUrl = new Uri("https://login.microsoftonline.com/49ae1e1a-3f6e-4708-a119-3db19ac9d323/oauth2/v2.0/authorize"),
-                            TokenUrl = new Uri("https://login.microsoftonline.com/49ae1e1a-3f6e-4708-a119-3db19ac9d323/oauth2/v2.0/token"),
+                            AuthorizationUrl = new Uri($"https://login.microsoftonline.com/{Configuration["SwaggerUI:TenantId"]}/oauth2/v2.0/authorize"),
+                            TokenUrl = new Uri($"https://login.microsoftonline.com/{Configuration["SwaggerUI:TenantId"]}/oauth2/v2.0/token"),
                             Scopes = new Dictionary<string, string>
                             {
-                                {"https://spseventdackar.onmicrosoft.com/api/orders/mines","get order list"}
+                                { $"https://{Configuration["SwaggerUI:Domain"]}.onmicrosoft.com/api/orders/my-orders","get order list"}
                             }
                         }
                     }
@@ -68,7 +68,7 @@ namespace OrderApi
                             }
                         },
                         new[] {
-                                "https://spseventdackar.onmicrosoft.com/api/orders/mines"
+                               $"https://{Configuration["SwaggerUI:Domain"]}.onmicrosoft.com/api/orders/my-orders"
                               }
                     }
                 });
@@ -87,8 +87,9 @@ namespace OrderApi
             app.UseSwagger()
            .UseSwaggerUI(c =>
            {
+               var OAuthClientId = Configuration["SwaggerUI:OAuthClientId"];
                c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi v1");
-               c.OAuthClientId("c0c00309-3d10-49ff-b9dd-d5184af7b613");
+               c.OAuthClientId(OAuthClientId);
                c.OAuthAppName("The Power Bi Rest API  Order Swagger UI");
                c.OAuthScopeSeparator(" ");
                c.OAuthUsePkce();

@@ -1,5 +1,4 @@
-﻿
-public class Order
+﻿public class Order
 {
     public string OrderNum { get; set; }
     public string OrderDate { get; set; }

@@ -18,10 +18,10 @@ namespace web_api_core.Controllers
 
         [Authorize]
         [HttpGet()]
-        public  async Task<IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
             var result = await _orderRepository.GetOrders();
-          
+
             return Ok(result);
         }
     }

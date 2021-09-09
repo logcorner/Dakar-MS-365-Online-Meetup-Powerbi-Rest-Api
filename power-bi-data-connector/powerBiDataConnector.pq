@@ -22,7 +22,9 @@ shared powerBiDataConnector.Contents = (url as text) =>
     let
        source = Json.Document(Web.Contents(url)),
        #"Converted to Table" = Table.FromList(source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
-       #"Expanded Column1" = Table.ExpandRecordColumn(#"Converted to Table", "Column1", {"orderId", "productName", "unitPrice", "quantity", "customerEmail"}, {"orderId", "productName", "unitPrice", "quantity", "customerEmail"})
+       #"Expanded Column1" = Table.ExpandRecordColumn(#"Converted to Table",
+                             "Column1", {"orderNum","orderDate","orderType","customerType","custName","custState","prodCategory","prodNumber","prodName","quantity","price","discount","orderTotal","salesEmail"}, 
+                                        {"orderNum","orderDate","orderType","customerType","custName","custState","prodCategory","prodNumber","prodName","quantity","price","discount","orderTotal","salesEmail"})
     in
        #"Expanded Column1";
 

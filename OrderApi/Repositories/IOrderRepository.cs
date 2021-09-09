@@ -5,6 +5,6 @@ namespace OrderApi.Repositories
 {
     public interface IOrderRepository
     {
-        Task<List<Order>> GetOrders();
+        Task<List<Order>> GetOrders(string userId);
     }
 }

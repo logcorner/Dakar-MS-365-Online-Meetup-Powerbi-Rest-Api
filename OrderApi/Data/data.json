@@ -13,7 +13,7 @@
     "Price": "8.99",
     "Discount": "$1.80",
     "OrderTotal": "$88.10",
-    "SalesEmail": ""
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100935",
@@ -28,7 +28,8 @@
     "Quantity": "2",
     "Price": "89.00",
     "Discount": "0",
-    "OrderTotal": "$178.00"
+    "OrderTotal": "$178.00",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100936",
@@ -43,7 +44,8 @@
     "Quantity": "10",
     "Price": "36.99",
     "Discount": "$7.40",
-    "OrderTotal": "$362.50"
+    "OrderTotal": "$362.50",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100937",
@@ -58,7 +60,8 @@
     "Quantity": "1",
     "Price": "189.00",
     "Discount": "0",
-    "OrderTotal": "$189.00"
+    "OrderTotal": "$189.00",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100938",
@@ -73,7 +76,8 @@
     "Quantity": "4",
     "Price": "24.95",
     "Discount": "0",
-    "OrderTotal": "$99.80"
+    "OrderTotal": "$99.80",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100939",
@@ -88,7 +92,8 @@
     "Quantity": "79",
     "Price": "395.00",
     "Discount": "$79.00",
-    "OrderTotal": "$31,126.00"
+    "OrderTotal": "$31,126.00",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100940",
@@ -103,7 +108,8 @@
     "Quantity": "1",
     "Price": "29.99",
     "Discount": "0",
-    "OrderTotal": "$29.99"
+    "OrderTotal": "$29.99",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100941",
@@ -118,7 +124,8 @@
     "Quantity": "2",
     "Price": "250.00",
     "Discount": "0",
-    "OrderTotal": "$500.00"
+    "OrderTotal": "$500.00",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100942",
@@ -133,7 +140,8 @@
     "Quantity": "1",
     "Price": "13.99",
     "Discount": "0",
-    "OrderTotal": "$13.99"
+    "OrderTotal": "$13.99",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100943",
@@ -148,7 +156,8 @@
     "Quantity": "6",
     "Price": "4.99",
     "Discount": "$0.10",
-    "OrderTotal": "$28.94"
+    "OrderTotal": "$28.94",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100944",
@@ -163,7 +172,8 @@
     "Quantity": "1",
     "Price": "28.99",
     "Discount": "0",
-    "OrderTotal": "$28.99"
+    "OrderTotal": "$28.99",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100945",
@@ -178,7 +188,8 @@
     "Quantity": "5",
     "Price": "49.95",
     "Discount": "$9.99",
-    "OrderTotal": "$239.76"
+    "OrderTotal": "$239.76",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100946",
@@ -193,7 +204,8 @@
     "Quantity": "7",
     "Price": "19.99",
     "Discount": "$3.10",
-    "OrderTotal": "$135.93"
+    "OrderTotal": "$135.93",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100947",
@@ -208,7 +220,8 @@
     "Quantity": "1",
     "Price": "27.50",
     "Discount": "0",
-    "OrderTotal": "$27.50"
+    "OrderTotal": "$27.50",
+    "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100948",
@@ -223,7 +236,8 @@
     "Quantity": "1",
     "Price": "44.95",
     "Discount": "0",
-    "OrderTotal": "$44.95"
+    "OrderTotal": "$44.95",
+    "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100949",
@@ -238,7 +252,8 @@
     "Quantity": "1",
     "Price": "13.99",
     "Discount": "0",
-    "OrderTotal": "$13.99"
+    "OrderTotal": "$13.99",
+    "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100950",
@@ -253,7 +268,8 @@
     "Quantity": "1",
     "Price": "189.00",
     "Discount": "0",
-    "OrderTotal": "$189.00"
+    "OrderTotal": "$189.00",
+    "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100951",
@@ -268,7 +284,8 @@
     "Quantity": "27",
     "Price": "179.00",
     "Discount": "$35.80",
-    "OrderTotal": "$4,797.20"
+    "OrderTotal": "$4,797.20",
+    "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100952",
@@ -283,7 +300,8 @@
     "Quantity": "5",
     "Price": "19.50",
     "Discount": "$3.90",
-    "OrderTotal": "$93.60"
+    "OrderTotal": "$93.60",
+    "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100953",
@@ -298,7 +316,8 @@
     "Quantity": "5",
     "Price": "179.00",
     "Discount": "$35.80",
-    "OrderTotal": "$859.20"
+    "OrderTotal": "$859.20",
+    "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100954",
@@ -313,7 +332,8 @@
     "Quantity": "7",
     "Price": "8.99",
     "Discount": "$1.80",
-    "OrderTotal": "$61.13"
+    "OrderTotal": "$61.13",
+    "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100955",
@@ -328,7 +348,8 @@
     "Quantity": "5",
     "Price": "7.99",
     "Discount": "$1.60",
-    "OrderTotal": "$38.35"
+    "OrderTotal": "$38.35",
+    "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100956",
@@ -343,7 +364,8 @@
     "Quantity": "1",
     "Price": "27.50",
     "Discount": "0",
-    "OrderTotal": "$27.50"
+    "OrderTotal": "$27.50",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100957",
@@ -358,7 +380,8 @@
     "Quantity": "1",
     "Price": "599.00",
     "Discount": "0",
-    "OrderTotal": "$599.00"
+    "OrderTotal": "$599.00",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100958",
@@ -373,7 +396,8 @@
     "Quantity": "9",
     "Price": "54.00",
     "Discount": "$10.80",
-    "OrderTotal": "$475.20"
+    "OrderTotal": "$475.20",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100959",
@@ -388,7 +412,8 @@
     "Quantity": "12",
     "Price": "49.00",
     "Discount": "$9.80",
-    "OrderTotal": "$578.20"
+    "OrderTotal": "$578.20",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100960",
@@ -403,7 +428,8 @@
     "Quantity": "92",
     "Price": "119.00",
     "Discount": "$23.80",
-    "OrderTotal": "$10,924.20"
+    "OrderTotal": "$10,924.20",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100961",
@@ -418,7 +444,8 @@
     "Quantity": "1",
     "Price": "44.95",
     "Discount": "0",
-    "OrderTotal": "$44.95"
+    "OrderTotal": "$44.95",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100962",
@@ -433,7 +460,8 @@
     "Quantity": "6",
     "Price": "89.00",
     "Discount": "$17.80",
-    "OrderTotal": "$516.20"
+    "OrderTotal": "$516.20",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100963",
@@ -448,7 +476,8 @@
     "Quantity": "3",
     "Price": "399.00",
     "Discount": "$79.80",
-    "OrderTotal": "$1,117.20"
+    "OrderTotal": "$1,117.20",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100964",
@@ -463,7 +492,8 @@
     "Quantity": "1",
     "Price": "23.99",
     "Discount": "0",
-    "OrderTotal": "$23.99"
+    "OrderTotal": "$23.99",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100965",
@@ -478,7 +508,8 @@
     "Quantity": "3",
     "Price": "89.00",
     "Discount": "0",
-    "OrderTotal": "$267.00"
+    "OrderTotal": "$267.00",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100966",
@@ -493,7 +524,8 @@
     "Quantity": "1",
     "Price": "14.99",
     "Discount": "0",
-    "OrderTotal": "$14.99"
+    "OrderTotal": "$14.99",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100967",
@@ -508,7 +540,8 @@
     "Quantity": "1",
     "Price": "9.99",
     "Discount": "0",
-    "OrderTotal": "$9.99"
+    "OrderTotal": "$9.99",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100968",
@@ -523,7 +556,8 @@
     "Quantity": "1",
     "Price": "225.00",
     "Discount": "0",
-    "OrderTotal": "$225.00"
+    "OrderTotal": "$225.00",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
     "OrderNum": "1100969",
@@ -538,6 +572,7 @@
     "Quantity": "1",
     "Price": "499.00",
     "Discount": "0",
-    "OrderTotal": "$499.00"
+    "OrderTotal": "$499.00",
+    "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   }
 ]

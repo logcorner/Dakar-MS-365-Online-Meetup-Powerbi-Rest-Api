@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OrderApi.Models;
 using OrderApi.Repositories;
-using System.Linq;
-using System.Security.Claims;
 using System;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace OrderApi.Controllers
 {
@@ -20,11 +20,12 @@ namespace OrderApi.Controllers
             _orderRepository = orderRepository;
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpGet()]
         public async Task<IActionResult> Index()
         {
-            var result = await _orderRepository.GetOrders();
+            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+            var result = await _orderRepository.GetOrders(userId);
             var data = result.Select(x => new OrderDto
             {
                 OrderNum = int.Parse(x.OrderNum),
@@ -34,7 +35,9 @@ namespace OrderApi.Controllers
                 CustState = x.CustState,
                 Discount = decimal.Parse(x.Discount),
                 OrderTotal = decimal.Parse(x.OrderTotal),
+                Quantity = int.Parse(x.Quantity),
                 OrderType = x.OrderType,
+                
                 Price = decimal.Parse(x.Price),
                 ProdCategory = x.ProdCategory,
                 ProdName = x.ProdName,
@@ -42,10 +45,6 @@ namespace OrderApi.Controllers
                 SalesEmail = x.SalesEmail
             });
             return Ok(data);
-            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name).Value;
-            var result = await _orderRepository.GetOrders(userId);
-
-            return Ok(result);
         }
     }
 }

@@ -11,8 +11,8 @@
     "ProdName": "Bsquare Robot Blueprint",
     "Quantity": "10",
     "Price": "8.99",
-    "Discount": "$1.80",
-    "OrderTotal": "$88.10",
+    "Discount": "1.80",
+    "OrderTotal": "88.10",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -28,7 +28,7 @@
     "Quantity": "2",
     "Price": "89.00",
     "Discount": "0",
-    "OrderTotal": "$178.00",
+    "OrderTotal": "178.00",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -43,8 +43,8 @@
     "ProdName": "Aerial Security",
     "Quantity": "10",
     "Price": "36.99",
-    "Discount": "$7.40",
-    "OrderTotal": "$362.50",
+    "Discount": "7.40",
+    "OrderTotal": "362.50",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -60,7 +60,7 @@
     "Quantity": "1",
     "Price": "189.00",
     "Discount": "0",
-    "OrderTotal": "$189.00",
+    "OrderTotal": "189.00",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -76,7 +76,7 @@
     "Quantity": "4",
     "Price": "24.95",
     "Discount": "0",
-    "OrderTotal": "$99.80",
+    "OrderTotal": "99.80",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -91,8 +91,8 @@
     "ProdName": "DC-304 Drone",
     "Quantity": "79",
     "Price": "395.00",
-    "Discount": "$79.00",
-    "OrderTotal": "$31,126.00",
+    "Discount": "79.00",
+    "OrderTotal": "31,126.00",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -108,7 +108,7 @@
     "Quantity": "1",
     "Price": "29.99",
     "Discount": "0",
-    "OrderTotal": "$29.99",
+    "OrderTotal": "29.99",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -124,7 +124,7 @@
     "Quantity": "2",
     "Price": "250.00",
     "Discount": "0",
-    "OrderTotal": "$500.00",
+    "OrderTotal": "500.00",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -140,7 +140,7 @@
     "Quantity": "1",
     "Price": "13.99",
     "Discount": "0",
-    "OrderTotal": "$13.99",
+    "OrderTotal": "13.99",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -155,8 +155,8 @@
     "ProdName": "Cat Robot Blueprint",
     "Quantity": "6",
     "Price": "4.99",
-    "Discount": "$0.10",
-    "OrderTotal": "$28.94",
+    "Discount": "0.10",
+    "OrderTotal": "28.94",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -172,7 +172,7 @@
     "Quantity": "1",
     "Price": "28.99",
     "Discount": "0",
-    "OrderTotal": "$28.99",
+    "OrderTotal": "28.99",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -187,8 +187,8 @@
     "ProdName": "AI for Educators",
     "Quantity": "5",
     "Price": "49.95",
-    "Discount": "$9.99",
-    "OrderTotal": "$239.76",
+    "Discount": "9.99",
+    "OrderTotal": "239.76",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -203,8 +203,8 @@
     "ProdName": "GPS Drones",
     "Quantity": "7",
     "Price": "19.99",
-    "Discount": "$3.10",
-    "OrderTotal": "$135.93",
+    "Discount": "3.10",
+    "OrderTotal": "135.93",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -220,7 +220,7 @@
     "Quantity": "1",
     "Price": "27.50",
     "Discount": "0",
-    "OrderTotal": "$27.50",
+    "OrderTotal": "27.50",
     "SalesEmail": "cfrancois@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -236,7 +236,7 @@
     "Quantity": "1",
     "Price": "44.95",
     "Discount": "0",
-    "OrderTotal": "$44.95",
+    "OrderTotal": "44.95",
     "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -252,7 +252,7 @@
     "Quantity": "1",
     "Price": "13.99",
     "Discount": "0",
-    "OrderTotal": "$13.99",
+    "OrderTotal": "13.99",
     "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -268,7 +268,7 @@
     "Quantity": "1",
     "Price": "189.00",
     "Discount": "0",
-    "OrderTotal": "$189.00",
+    "OrderTotal": "189.00",
     "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -283,8 +283,8 @@
     "ProdName": "BYOD-550",
     "Quantity": "27",
     "Price": "179.00",
-    "Discount": "$35.80",
-    "OrderTotal": "$4,797.20",
+    "Discount": "35.80",
+    "OrderTotal": "4,797.20",
     "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -299,8 +299,8 @@
     "ProdName": "Understanding Artificial Intelligence",
     "Quantity": "5",
     "Price": "19.50",
-    "Discount": "$3.90",
-    "OrderTotal": "$93.60",
+    "Discount": "3.90",
+    "OrderTotal": "93.60",
     "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -315,8 +315,8 @@
     "ProdName": "BYOD-550",
     "Quantity": "5",
     "Price": "179.00",
-    "Discount": "$35.80",
-    "OrderTotal": "$859.20",
+    "Discount": "35.80",
+    "OrderTotal": "859.20",
     "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -331,8 +331,8 @@
     "ProdName": "Hexacopter Drone Blueprint",
     "Quantity": "7",
     "Price": "8.99",
-    "Discount": "$1.80",
-    "OrderTotal": "$61.13",
+    "Discount": "1.80",
+    "OrderTotal": "61.13",
     "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -347,8 +347,8 @@
     "ProdName": "Panda Robot Blueprint",
     "Quantity": "5",
     "Price": "7.99",
-    "Discount": "$1.60",
-    "OrderTotal": "$38.35",
+    "Discount": "1.60",
+    "OrderTotal": "38.35",
     "SalesEmail": "dfabres@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -364,7 +364,7 @@
     "Quantity": "1",
     "Price": "27.50",
     "Discount": "0",
-    "OrderTotal": "$27.50",
+    "OrderTotal": "27.50",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -380,7 +380,7 @@
     "Quantity": "1",
     "Price": "599.00",
     "Discount": "0",
-    "OrderTotal": "$599.00",
+    "OrderTotal": "599.00",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -395,8 +395,8 @@
     "ProdName": "BYOD-100",
     "Quantity": "9",
     "Price": "54.00",
-    "Discount": "$10.80",
-    "OrderTotal": "$475.20",
+    "Discount": "10.80",
+    "OrderTotal": "475.20",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -411,8 +411,8 @@
     "ProdName": "Mapping with Drones",
     "Quantity": "12",
     "Price": "49.00",
-    "Discount": "$9.80",
-    "OrderTotal": "$578.20",
+    "Discount": "9.80",
+    "OrderTotal": "578.20",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -427,8 +427,8 @@
     "ProdName": "BYOD-400",
     "Quantity": "92",
     "Price": "119.00",
-    "Discount": "$23.80",
-    "OrderTotal": "$10,924.20",
+    "Discount": "23.80",
+    "OrderTotal": "10,924.20",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -444,7 +444,7 @@
     "Quantity": "1",
     "Price": "44.95",
     "Discount": "0",
-    "OrderTotal": "$44.95",
+    "OrderTotal": "44.95",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -459,8 +459,8 @@
     "ProdName": "BYOD-300",
     "Quantity": "6",
     "Price": "89.00",
-    "Discount": "$17.80",
-    "OrderTotal": "$516.20",
+    "Discount": "17.80",
+    "OrderTotal": "516.20",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -475,8 +475,8 @@
     "ProdName": "DA-SA702 Drone",
     "Quantity": "3",
     "Price": "399.00",
-    "Discount": "$79.80",
-    "OrderTotal": "$1,117.20",
+    "Discount": "79.80",
+    "OrderTotal": "1,117.20",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -492,7 +492,7 @@
     "Quantity": "1",
     "Price": "23.99",
     "Discount": "0",
-    "OrderTotal": "$23.99",
+    "OrderTotal": "23.99",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -508,7 +508,7 @@
     "Quantity": "3",
     "Price": "89.00",
     "Discount": "0",
-    "OrderTotal": "$267.00",
+    "OrderTotal": "267.00",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -524,7 +524,7 @@
     "Quantity": "1",
     "Price": "14.99",
     "Discount": "0",
-    "OrderTotal": "$14.99",
+    "OrderTotal": "14.99",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -540,7 +540,7 @@
     "Quantity": "1",
     "Price": "9.99",
     "Discount": "0",
-    "OrderTotal": "$9.99",
+    "OrderTotal": "9.99",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -556,7 +556,7 @@
     "Quantity": "1",
     "Price": "225.00",
     "Discount": "0",
-    "OrderTotal": "$225.00",
+    "OrderTotal": "225.00",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   },
   {
@@ -572,7 +572,7 @@
     "Quantity": "1",
     "Price": "499.00",
     "Discount": "0",
-    "OrderTotal": "$499.00",
+    "OrderTotal": "499.00",
     "SalesEmail": "elambert@logcornerpowerbi.onmicrosoft.com"
   }
 ]

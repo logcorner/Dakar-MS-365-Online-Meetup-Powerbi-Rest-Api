@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OrderApi.Models;
 using OrderApi.Repositories;
+using System.Linq;
+using System.Security.Claims;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -40,6 +42,10 @@ namespace OrderApi.Controllers
                 SalesEmail = x.SalesEmail
             });
             return Ok(data);
+            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name).Value;
+            var result = await _orderRepository.GetOrders(userId);
+
+            return Ok(result);
         }
     }
 }

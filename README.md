@@ -17,3 +17,13 @@ Build the project to produce an extension file.
 Copy the extension file into [Documents]/Power BI Desktop/Custom Connectors.
 Check the option (Not Recommended) Allow any extension to load without validation or warning in Power BI Desktop (under File | Options and settings | Options | Security | Data Extensions).
 Restart Power BI Desktop.
+
+langage M
+
+https://docs.microsoft.com/en-us/powerquery-m/
+
+cfrancois@logcornerpowerbi.onmicrosoft.com   
+dfabres@logcornerpowerbi.onmicrosoft.com  
+elambert@logcornerpowerbi.onmicrosoft.com  
+
+Ms365Dakar1#

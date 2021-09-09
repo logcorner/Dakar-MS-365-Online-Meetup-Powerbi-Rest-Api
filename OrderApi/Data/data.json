@@ -11,8 +11,8 @@
     "ProdName": "Bsquare Robot Blueprint",
     "Quantity": "10",
     "Price": "8.99",
-    "Discount": "$1.80",
-    "OrderTotal": "$88.10",
+    "Discount": "1.80",
+    "OrderTotal": "88.10",
     "SalesEmail": ""
   },
   {
@@ -28,7 +28,7 @@
     "Quantity": "2",
     "Price": "89.00",
     "Discount": "0",
-    "OrderTotal": "$178.00"
+    "OrderTotal": "178.00"
   },
   {
     "OrderNum": "1100936",
@@ -42,8 +42,8 @@
     "ProdName": "Aerial Security",
     "Quantity": "10",
     "Price": "36.99",
-    "Discount": "$7.40",
-    "OrderTotal": "$362.50"
+    "Discount": "7.40",
+    "OrderTotal": "362.50"
   },
   {
     "OrderNum": "1100937",
@@ -58,7 +58,7 @@
     "Quantity": "1",
     "Price": "189.00",
     "Discount": "0",
-    "OrderTotal": "$189.00"
+    "OrderTotal": "189.00"
   },
   {
     "OrderNum": "1100938",
@@ -73,7 +73,7 @@
     "Quantity": "4",
     "Price": "24.95",
     "Discount": "0",
-    "OrderTotal": "$99.80"
+    "OrderTotal": "99.80"
   },
   {
     "OrderNum": "1100939",
@@ -87,8 +87,8 @@
     "ProdName": "DC-304 Drone",
     "Quantity": "79",
     "Price": "395.00",
-    "Discount": "$79.00",
-    "OrderTotal": "$31,126.00"
+    "Discount": "79.00",
+    "OrderTotal": "31,126.00"
   },
   {
     "OrderNum": "1100940",
@@ -103,7 +103,7 @@
     "Quantity": "1",
     "Price": "29.99",
     "Discount": "0",
-    "OrderTotal": "$29.99"
+    "OrderTotal": "29.99"
   },
   {
     "OrderNum": "1100941",
@@ -118,7 +118,7 @@
     "Quantity": "2",
     "Price": "250.00",
     "Discount": "0",
-    "OrderTotal": "$500.00"
+    "OrderTotal": "500.00"
   },
   {
     "OrderNum": "1100942",
@@ -133,7 +133,7 @@
     "Quantity": "1",
     "Price": "13.99",
     "Discount": "0",
-    "OrderTotal": "$13.99"
+    "OrderTotal": "13.99"
   },
   {
     "OrderNum": "1100943",
@@ -147,8 +147,8 @@
     "ProdName": "Cat Robot Blueprint",
     "Quantity": "6",
     "Price": "4.99",
-    "Discount": "$0.10",
-    "OrderTotal": "$28.94"
+    "Discount": "0.10",
+    "OrderTotal": "28.94"
   },
   {
     "OrderNum": "1100944",
@@ -163,7 +163,7 @@
     "Quantity": "1",
     "Price": "28.99",
     "Discount": "0",
-    "OrderTotal": "$28.99"
+    "OrderTotal": "28.99"
   },
   {
     "OrderNum": "1100945",
@@ -177,8 +177,8 @@
     "ProdName": "AI for Educators",
     "Quantity": "5",
     "Price": "49.95",
-    "Discount": "$9.99",
-    "OrderTotal": "$239.76"
+    "Discount": "9.99",
+    "OrderTotal": "239.76"
   },
   {
     "OrderNum": "1100946",
@@ -192,8 +192,8 @@
     "ProdName": "GPS Drones",
     "Quantity": "7",
     "Price": "19.99",
-    "Discount": "$3.10",
-    "OrderTotal": "$135.93"
+    "Discount": "3.10",
+    "OrderTotal": "135.93"
   },
   {
     "OrderNum": "1100947",
@@ -208,7 +208,7 @@
     "Quantity": "1",
     "Price": "27.50",
     "Discount": "0",
-    "OrderTotal": "$27.50"
+    "OrderTotal": "27.50"
   },
   {
     "OrderNum": "1100948",
@@ -223,7 +223,7 @@
     "Quantity": "1",
     "Price": "44.95",
     "Discount": "0",
-    "OrderTotal": "$44.95"
+    "OrderTotal": "44.95"
   },
   {
     "OrderNum": "1100949",
@@ -238,7 +238,7 @@
     "Quantity": "1",
     "Price": "13.99",
     "Discount": "0",
-    "OrderTotal": "$13.99"
+    "OrderTotal": "13.99"
   },
   {
     "OrderNum": "1100950",
@@ -253,7 +253,7 @@
     "Quantity": "1",
     "Price": "189.00",
     "Discount": "0",
-    "OrderTotal": "$189.00"
+    "OrderTotal": "189.00"
   },
   {
     "OrderNum": "1100951",
@@ -267,8 +267,8 @@
     "ProdName": "BYOD-550",
     "Quantity": "27",
     "Price": "179.00",
-    "Discount": "$35.80",
-    "OrderTotal": "$4,797.20"
+    "Discount": "35.80",
+    "OrderTotal": "4,797.20"
   },
   {
     "OrderNum": "1100952",
@@ -282,8 +282,8 @@
     "ProdName": "Understanding Artificial Intelligence",
     "Quantity": "5",
     "Price": "19.50",
-    "Discount": "$3.90",
-    "OrderTotal": "$93.60"
+    "Discount": "3.90",
+    "OrderTotal": "93.60"
   },
   {
     "OrderNum": "1100953",
@@ -297,8 +297,8 @@
     "ProdName": "BYOD-550",
     "Quantity": "5",
     "Price": "179.00",
-    "Discount": "$35.80",
-    "OrderTotal": "$859.20"
+    "Discount": "35.80",
+    "OrderTotal": "859.20"
   },
   {
     "OrderNum": "1100954",
@@ -312,8 +312,8 @@
     "ProdName": "Hexacopter Drone Blueprint",
     "Quantity": "7",
     "Price": "8.99",
-    "Discount": "$1.80",
-    "OrderTotal": "$61.13"
+    "Discount": "1.80",
+    "OrderTotal": "61.13"
   },
   {
     "OrderNum": "1100955",
@@ -327,8 +327,8 @@
     "ProdName": "Panda Robot Blueprint",
     "Quantity": "5",
     "Price": "7.99",
-    "Discount": "$1.60",
-    "OrderTotal": "$38.35"
+    "Discount": "1.60",
+    "OrderTotal": "38.35"
   },
   {
     "OrderNum": "1100956",
@@ -343,7 +343,7 @@
     "Quantity": "1",
     "Price": "27.50",
     "Discount": "0",
-    "OrderTotal": "$27.50"
+    "OrderTotal": "27.50"
   },
   {
     "OrderNum": "1100957",
@@ -358,7 +358,7 @@
     "Quantity": "1",
     "Price": "599.00",
     "Discount": "0",
-    "OrderTotal": "$599.00"
+    "OrderTotal": "599.00"
   },
   {
     "OrderNum": "1100958",
@@ -372,8 +372,8 @@
     "ProdName": "BYOD-100",
     "Quantity": "9",
     "Price": "54.00",
-    "Discount": "$10.80",
-    "OrderTotal": "$475.20"
+    "Discount": "10.80",
+    "OrderTotal": "475.20"
   },
   {
     "OrderNum": "1100959",
@@ -387,8 +387,8 @@
     "ProdName": "Mapping with Drones",
     "Quantity": "12",
     "Price": "49.00",
-    "Discount": "$9.80",
-    "OrderTotal": "$578.20"
+    "Discount": "9.80",
+    "OrderTotal": "578.20"
   },
   {
     "OrderNum": "1100960",
@@ -402,8 +402,8 @@
     "ProdName": "BYOD-400",
     "Quantity": "92",
     "Price": "119.00",
-    "Discount": "$23.80",
-    "OrderTotal": "$10,924.20"
+    "Discount": "23.80",
+    "OrderTotal": "10,924.20"
   },
   {
     "OrderNum": "1100961",
@@ -418,7 +418,7 @@
     "Quantity": "1",
     "Price": "44.95",
     "Discount": "0",
-    "OrderTotal": "$44.95"
+    "OrderTotal": "44.95"
   },
   {
     "OrderNum": "1100962",
@@ -432,8 +432,8 @@
     "ProdName": "BYOD-300",
     "Quantity": "6",
     "Price": "89.00",
-    "Discount": "$17.80",
-    "OrderTotal": "$516.20"
+    "Discount": "17.80",
+    "OrderTotal": "516.20"
   },
   {
     "OrderNum": "1100963",
@@ -447,8 +447,8 @@
     "ProdName": "DA-SA702 Drone",
     "Quantity": "3",
     "Price": "399.00",
-    "Discount": "$79.80",
-    "OrderTotal": "$1,117.20"
+    "Discount": "79.80",
+    "OrderTotal": "1,117.20"
   },
   {
     "OrderNum": "1100964",
@@ -463,7 +463,7 @@
     "Quantity": "1",
     "Price": "23.99",
     "Discount": "0",
-    "OrderTotal": "$23.99"
+    "OrderTotal": "23.99"
   },
   {
     "OrderNum": "1100965",
@@ -478,7 +478,7 @@
     "Quantity": "3",
     "Price": "89.00",
     "Discount": "0",
-    "OrderTotal": "$267.00"
+    "OrderTotal": "267.00"
   },
   {
     "OrderNum": "1100966",
@@ -493,7 +493,7 @@
     "Quantity": "1",
     "Price": "14.99",
     "Discount": "0",
-    "OrderTotal": "$14.99"
+    "OrderTotal": "14.99"
   },
   {
     "OrderNum": "1100967",
@@ -508,7 +508,7 @@
     "Quantity": "1",
     "Price": "9.99",
     "Discount": "0",
-    "OrderTotal": "$9.99"
+    "OrderTotal": "9.99"
   },
   {
     "OrderNum": "1100968",
@@ -523,7 +523,7 @@
     "Quantity": "1",
     "Price": "225.00",
     "Discount": "0",
-    "OrderTotal": "$225.00"
+    "OrderTotal": "225.00"
   },
   {
     "OrderNum": "1100969",
@@ -538,6 +538,6 @@
     "Quantity": "1",
     "Price": "499.00",
     "Discount": "0",
-    "OrderTotal": "$499.00"
+    "OrderTotal": "499.00"
   }
 ]

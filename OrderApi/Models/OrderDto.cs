@@ -1,9 +1,11 @@
-﻿namespace OrderApi.Models
+﻿using System;
+
+namespace OrderApi.Models
 {
-    public class Order
+    public class OrderDto
     {
-        public string OrderNum { get; set; }
-        public string OrderDate { get; set; }
+        public int OrderNum { get; set; }
+        public DateTime OrderDate { get; set; }
         public string OrderType { get; set; }
         public string CustomerType { get; set; }
         public string CustName { get; set; }
@@ -11,10 +13,10 @@
         public string ProdCategory { get; set; }
         public string ProdNumber { get; set; }
         public string ProdName { get; set; }
-        public string Quantity { get; set; }
-        public string Price { get; set; }
-        public string Discount { get; set; }
-        public string OrderTotal { get; set; }
+        public int Quantity { get; set; }
+        public decimal Price { get; set; }
+        public decimal Discount { get; set; }
+        public decimal OrderTotal { get; set; }
         public string SalesEmail { get; set; }
     }
 }

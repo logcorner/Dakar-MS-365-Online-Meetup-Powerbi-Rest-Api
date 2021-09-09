@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using OrderApi.Models;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace OrderApi.Repositories

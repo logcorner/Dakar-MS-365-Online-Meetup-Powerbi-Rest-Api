@@ -87,9 +87,9 @@ namespace OrderApi
             app.UseSwagger()
            .UseSwaggerUI(c =>
            {
-               var OAuthClientId = Configuration["SwaggerUI:OAuthClientId"];
+               var oAuthClientId = Configuration["SwaggerUI:OAuthClientId"];
                c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi v1");
-               c.OAuthClientId(OAuthClientId);
+               c.OAuthClientId(oAuthClientId);
                c.OAuthAppName("The Power Bi Rest API  Order Swagger UI");
                c.OAuthScopeSeparator(" ");
                c.OAuthUsePkce();
